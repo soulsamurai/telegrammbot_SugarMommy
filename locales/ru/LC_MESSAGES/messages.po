@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ru\n"
+
+msgid "welcome"
+msgstr "Добро пожаловать в салон Sugar Mommy! Выберите язык интерфейса:"
+
+msgid "menu_book"
+msgstr "Записаться"
+
+msgid "menu_appointments"
+msgstr "Мои записи"
+
+msgid "menu_language"
+msgstr "Язык"
+
+msgid "menu_cabinet"
+msgstr "Мой кабинет"
+
+msgid "menu_admin"
+msgstr "Админ-панель"
+
+msgid "choose_service"
+msgstr "Выберите услугу:"
+
+msgid "choose_master"
+msgstr "Выберите мастера:"
+
+msgid "choose_date"
+msgstr "Выберите дату:"
+
+msgid "choose_time"
+msgstr "Выберите время:"
+
+msgid "no_slots"
+msgstr "На эту дату все места заняты."
+
+msgid "waitlist_offer"
+msgstr "Встать в лист ожидания на {date} {time}?"
+
+msgid "confirm_booking"
+msgstr "Подтвердите запись:\n\nУслуга: {service}\nМастер: {master}\nДата: {date}\nВремя: {time}\nЦена: {price} сум"
+
+msgid "cancel_policy"
+msgstr "Отмена или перенос записи возможны не позднее чем за 2 часа до начала. Позднее — запись считается состоявшейся."
+
+msgid "booking_created"
+msgstr "Запись подтверждена! Ждём вас {date} в {time}."
+
+msgid "booking_cancelled"
+msgstr "Запись отменена."
+
+msgid "cancel_too_late"
+msgstr "Отмена невозможна: до начала осталось менее 2 часов."
+
+msgid "master_new_booking"
+msgstr "Новая запись! Клиент: {client}, Услуга: {service}, Дата: {date}, Время: {time}"
+
+msgid "master_reschedule"
+msgstr "Клиент {client} перенёс запись с {old_date} {old_time} на {new_date} {new_time}"
+
+msgid "master_cancel"
+msgstr "Клиент {client} отменил запись на {date} {time}"
+
+msgid "client_cancel_by_master"
+msgstr "Ваша запись на {date} {time} отменена мастером. Свяжитесь с нами для перезаписи."
+
+msgid "repeat_visit"
+msgstr "Прошло {days} дней после процедуры «{service}». Пора записаться снова!"
+
+msgid "confirm_visit_prompt"
+msgstr "Напоминаем о записи {date} в {time}. Подтвердите визит:"
+
+msgid "confirm_visit_yes"
+msgstr "Я точно буду"
+
+msgid "confirm_visit_no"
+msgstr "Отменить запись"
+
+msgid "admin_unconfirmed"
+msgstr "Запись #{id} ({client}, {date} {time}) не подтверждена. Свяжитесь с клиентом."
+
+msgid "waitlist_freed"
+msgstr "Освободилось место на {date} {time}! Занять?"
+
+msgid "btn_confirm"
+msgstr "Подтвердить"
+
+msgid "btn_cancel"
+msgstr "Отменить"
+
+msgid "btn_back"
+msgstr "Назад"
+
+msgid "btn_main_menu"
+msgstr "Главное меню"
+
+msgid "btn_join_waitlist"
+msgstr "Встать в очередь"
+
+msgid "btn_leave_waitlist"
+msgstr "Выйти из очереди"
+
+msgid "btn_reschedule"
+msgstr "Перенести"
+
+msgid "btn_take_slot"
+msgstr "Занять"
+
+msgid "btn_decline_slot"
+msgstr "Отказаться"
