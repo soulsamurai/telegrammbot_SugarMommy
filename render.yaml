@@ -1,0 +1,39 @@
+# Render Blueprint — Sugar Mommy Bot
+# Dashboard → Blueprints → New Blueprint Instance → выберите этот репозиторий → Apply
+# При первом деплое Render запросит секреты (sync: false).
+
+databases:
+  - name: sugar-mommy-db
+    databaseName: sugar_mommy
+    plan: free
+    region: singapore
+
+services:
+  - type: worker
+    name: sugar-mommy-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    region: singapore
+    plan: starter
+    numInstances: 1
+    preDeployCommand: alembic -c db/alembic.ini upgrade head
+    initialDeployHook: python scripts/seed.py
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: sugar-mommy-db
+          property: connectionString
+      - key: BOT_TOKEN
+        sync: false
+      - key: MASTER_IDS
+        sync: false
+      - key: ADMIN_IDS
+        value: "1977440418,6725003474"
+      - key: TIMEZONE
+        value: Asia/Tashkent
+      - key: LOG_JSON
+        value: "true"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: PYTHONPATH
+        value: /app
