@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "welcome"
+msgstr "Welcome to Sugar Mommy salon! Choose your language:"
+
+msgid "menu_book"
+msgstr "Book appointment"
+
+msgid "menu_appointments"
+msgstr "My appointments"
+
+msgid "menu_language"
+msgstr "Language"
+
+msgid "menu_cabinet"
+msgstr "My cabinet"
+
+msgid "menu_admin"
+msgstr "Admin panel"
+
+msgid "choose_service"
+msgstr "Choose a service:"
+
+msgid "choose_master"
+msgstr "Choose a specialist:"
+
+msgid "choose_date"
+msgstr "Choose a date:"
+
+msgid "choose_time"
+msgstr "Choose a time:"
+
+msgid "no_slots"
+msgstr "All slots are taken on this date."
+
+msgid "waitlist_offer"
+msgstr "Join the waitlist for {date} {time}?"
+
+msgid "confirm_booking"
+msgstr "Confirm booking:\n\nService: {service}\nSpecialist: {master}\nDate: {date}\nTime: {time}\nPrice: {price} UZS"
+
+msgid "cancel_policy"
+msgstr "Cancellation or rescheduling is allowed at least 2 hours before start."
+
+msgid "booking_created"
+msgstr "Booking confirmed! See you on {date} at {time}."
+
+msgid "booking_cancelled"
+msgstr "Appointment cancelled."
+
+msgid "cancel_too_late"
+msgstr "Cannot cancel: less than 2 hours before start."
+
+msgid "master_new_booking"
+msgstr "New booking! Client: {client}, Service: {service}, Date: {date}, Time: {time}"
+
+msgid "master_reschedule"
+msgstr "Client {client} rescheduled from {old_date} {old_time} to {new_date} {new_time}"
+
+msgid "master_cancel"
+msgstr "Client {client} cancelled appointment on {date} {time}"
+
+msgid "client_cancel_by_master"
+msgstr "Your appointment on {date} {time} was cancelled. Contact us to rebook."
+
+msgid "repeat_visit"
+msgstr "{days} days since «{service}». Time to book again!"
+
+msgid "confirm_visit_prompt"
+msgstr "Reminder: appointment on {date} at {time}. Please confirm:"
+
+msgid "confirm_visit_yes"
+msgstr "I'll be there"
+
+msgid "confirm_visit_no"
+msgstr "Cancel appointment"
+
+msgid "admin_unconfirmed"
+msgstr "Booking #{id} ({client}, {date} {time}) not confirmed. Contact the client."
+
+msgid "waitlist_freed"
+msgstr "A slot opened on {date} {time}! Book it?"
+
+msgid "btn_confirm"
+msgstr "Confirm"
+
+msgid "btn_cancel"
+msgstr "Cancel"
+
+msgid "btn_back"
+msgstr "Back"
+
+msgid "btn_main_menu"
+msgstr "Main menu"
+
+msgid "btn_join_waitlist"
+msgstr "Join waitlist"
+
+msgid "btn_leave_waitlist"
+msgstr "Leave waitlist"
+
+msgid "btn_reschedule"
+msgstr "Reschedule"
+
+msgid "btn_take_slot"
+msgstr "Take slot"
+
+msgid "btn_decline_slot"
+msgstr "Decline"
