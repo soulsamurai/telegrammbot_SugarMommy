@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: uz\n"
+
+msgid "welcome"
+msgstr "Sugar Mommy saloniga xush kelibsiz! Interfeys tilini tanlang:"
+
+msgid "menu_book"
+msgstr "Yozilish"
+
+msgid "menu_appointments"
+msgstr "Mening yozuvlarim"
+
+msgid "menu_language"
+msgstr "Til"
+
+msgid "menu_cabinet"
+msgstr "Mening kabinetim"
+
+msgid "menu_admin"
+msgstr "Admin panel"
+
+msgid "choose_service"
+msgstr "Xizmatni tanlang:"
+
+msgid "choose_master"
+msgstr "Ustani tanlang:"
+
+msgid "choose_date"
+msgstr "Sanani tanlang:"
+
+msgid "choose_time"
+msgstr "Vaqtni tanlang:"
+
+msgid "no_slots"
+msgstr "Bu sanada barcha joylar band."
+
+msgid "waitlist_offer"
+msgstr "{date} {time} uchun kutish ro'yxatiga qo'shilasizmi?"
+
+msgid "confirm_booking"
+msgstr "Yozuvni tasdiqlang:\n\nXizmat: {service}\nUsta: {master}\nSana: {date}\nVaqt: {time}\nNarx: {price} so'm"
+
+msgid "cancel_policy"
+msgstr "Bekor qilish yoki ko'chirish boshlanishidan kamida 2 soat oldin mumkin."
+
+msgid "booking_created"
+msgstr "Yozuv tasdiqlandi! {date} kuni soat {time} da kutamiz."
+
+msgid "booking_cancelled"
+msgstr "Yozuv bekor qilindi."
+
+msgid "cancel_too_late"
+msgstr "Bekor qilib bo'lmaydi: boshlanishiga 2 soatdan kam qoldi."
+
+msgid "master_new_booking"
+msgstr "Yangi yozuv! Mijoz: {client}, Xizmat: {service}, Sana: {date}, Vaqt: {time}"
+
+msgid "master_reschedule"
+msgstr "Mijoz {client} yozuvni {old_date} {old_time} dan {new_date} {new_time} ga ko'chirdi"
+
+msgid "master_cancel"
+msgstr "Mijoz {client} {date} {time} dagi yozuvni bekor qildi"
+
+msgid "client_cancel_by_master"
+msgstr "{date} {time} dagi yozuvingiz bekor qilindi. Qayta yozilish uchun biz bilan bog'laning."
+
+msgid "repeat_visit"
+msgstr "«{service}» dan {days} kun o'tdi. Qayta yoziling!"
+
+msgid "confirm_visit_prompt"
+msgstr "{date} soat {time} dagi yozuv eslatmasi. Tashrifni tasdiqlang:"
+
+msgid "confirm_visit_yes"
+msgstr "Albatta kelaman"
+
+msgid "confirm_visit_no"
+msgstr "Yozuvni bekor qilish"
+
+msgid "admin_unconfirmed"
+msgstr "#{id} yozuv ({client}, {date} {time}) tasdiqlanmadi. Mijoz bilan bog'laning."
+
+msgid "waitlist_freed"
+msgstr "{date} {time} da joy bo'shadi! Band qilasizmi?"
+
+msgid "btn_confirm"
+msgstr "Tasdiqlash"
+
+msgid "btn_cancel"
+msgstr "Bekor qilish"
+
+msgid "btn_back"
+msgstr "Orqaga"
+
+msgid "btn_main_menu"
+msgstr "Asosiy menyu"
+
+msgid "btn_join_waitlist"
+msgstr "Navbatga"
+
+msgid "btn_leave_waitlist"
+msgstr "Navbatdan chiqish"
+
+msgid "btn_reschedule"
+msgstr "Ko'chirish"
+
+msgid "btn_take_slot"
+msgstr "Band qilish"
+
+msgid "btn_decline_slot"
+msgstr "Rad etish"
